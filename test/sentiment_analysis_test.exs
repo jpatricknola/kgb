@@ -6,6 +6,7 @@ defmodule Kgb.SentimentAnalysisTest do
       "hated it",
       "loved it",
       "neutal about it",
+      "You suck!  I rue the day that we met and curse your name henceforth forever more",
       "total waste of time",
       "it was kind of good",
       "super awesome!"

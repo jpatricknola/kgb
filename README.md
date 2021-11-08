@@ -18,7 +18,7 @@ output will looks something like this:
 [
   %{
     'positive_score' => 0.678,
-    'review' => 'OMG the best thank you I love you so much!!!  Would you marry my cousin so we can be in the same family?'
+    'review' => 'OMG the best thank you I love you so much!!!  Please marry my cousin we can be in the same family?'
   },
   %{
     'positive_score' => 0.467,
@@ -30,7 +30,8 @@ output will looks something like this:
   }
 ]
 
-## Usage
+## Tests
+run the testing suite with the command ```mix test```
 
 
 

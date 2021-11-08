@@ -9,11 +9,6 @@ defmodule Kgb.Cache do
   end
 
   @impl true
-  def handle_call(:pop, _from, [head | tail]) do
-    {:reply, head, tail}
-  end
-
-  @impl true
   def handle_cast({:add_reviews, reviews}, state) do
     reviews = Map.get(state, :reviews, []) ++ reviews
     pages = Map.get(state, :pages, 0) + 1
